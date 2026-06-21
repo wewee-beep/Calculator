@@ -1,0 +1,23 @@
+.find-out-button{
+        background-color: rgb(91, 86, 86);
+        color:rgb(255, 47, 47);
+        border-radius: 15px;
+        height: 60px; 
+        width: 130px;
+        font-size: 23px;
+        margin-top: 150px;
+        cursor: pointer;
+    }
+h1{color: azure;}
+body{
+        background-color: black;
+        text-align: center;
+    }
+.find-out-button:hover{
+background-color: #3a3a3a;
+color: #ffffff;
+box-shadow: 0 0 10px #ff3333;
+border-color: #ffffff;
+}
+mark{background-color: red; color: black;}
+h3{color: red;}
