@@ -1,3 +1,13 @@
+.body-p1{
+        background-color: black;
+        text-align: center; }
+
+.whenyoumarried{color: azure;}
+
+.red-h3{color: red;}
+
+.marked{background-color: red; color: black;}
+
 .find-out-button{
         background-color: rgb(91, 86, 86);
         color:rgb(255, 47, 47);
@@ -5,19 +15,55 @@
         height: 60px; 
         width: 130px;
         font-size: 23px;
-        margin-top: 150px;
-        cursor: pointer;
-    }
-h1{color: azure;}
-body{
-        background-color: black;
-        text-align: center;
-    }
+        margin-top: 0px;
+        cursor: pointer;}
+
 .find-out-button:hover{
-background-color: #3a3a3a;
-color: #ffffff;
-box-shadow: 0 0 10px #ff3333;
-border-color: #ffffff;
+        background-color: #3a3a3a;
+        color: #ffffff;
+        box-shadow: 0 0 10px #ff3333;
+        border-color: #ffffff;}
+
+
+
+        
+input,
+textarea{
+        width: 350px;
+        padding: 12px;
+        background: #111;
+        color: white;
+        border: 2px solid red;
+        border-radius: 8px;
+        display: block;
+        margin: 20px auto;
+        }
+
+
+textarea{
+        resize: none;
+        }
+
+input:focus, 
+textarea:focus{
+        outline: none;
+        border-color: red;
+        box-shadow: 0 0 10px #ff3333;}
+
+
+input::placeholder,
+textarea::placeholder{color: #aaa;}
+
+/*-----------------------------------second page----------------------------------------*/
+.body-p2{
+    background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); text-align: center; font-family: sans-serif;}
+.treeimage{
+    width: 400px; border: 4px solid rgb(255, 255, 255); border-radius: 10px;}
+
+#flash {
+    position: fixed;
+    inset: 0;
+    background: white;
+    opacity: 1;
+    transition: opacity 0.6s ease;
 }
-mark{background-color: red; color: black;}
-h3{color: red;}
