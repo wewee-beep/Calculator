@@ -3,9 +3,9 @@ window.onload = function () {
     const flash = document.getElementById("flash");
 
     if (bang) {
-        bang.play().catch(() => {});
-    }
-
+        bang.play().catch((error) => {
+    console.log(error);
+});    
     if (flash) {
 
         setTimeout(() => {
