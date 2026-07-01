@@ -1,6 +1,8 @@
 
-console.log("JavaScript loaded!");
+
 window.onload = function () {
+    console.log("JavaScript loaded!");
+    
     const bang = document.getElementById("bang");
     const flash = document.getElementById("flash");
 
